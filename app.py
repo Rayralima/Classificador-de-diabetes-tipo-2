@@ -19,7 +19,7 @@ st.write("Insira os dados do paciente para prever o risco de diabetes.")
 
 # Campos de entrada das 8 feactures
 pregnancies = st.number_input("Número de Gestações", min_value=0, step=1)
-glucose = st.number_input("Glicose (nível de glicose no plasma)", min_value=0.0)
+glucose = st.number_input("Glicose (nível de glicose no sangue, em mg/dL)", min_value=0.0)
 blood_pressure = st.number_input("Pressão Arterial (diastólica, mm Hg)", min_value=0.0)
 skin_thickness = st.number_input("Espessura da Dobra Cutânea (tríceps, mm)", min_value=0.0)
 insulin = st.number_input("Insulina (soro de 2 horas, mu U/ml)", min_value=0.0)
