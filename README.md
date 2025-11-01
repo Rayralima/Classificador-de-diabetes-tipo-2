@@ -1,9 +1,9 @@
 # 🩺 Classificador de Diabetes tipo 2
 ## 1. Introdução 
 
-O objetivo deste projeto é aplicar técnicas de Machine Learning para analisar o dataset "Pima Indians Diabetes" da UCI. Este dataset busca prever o diagnóstico de diabetes tipo 2 em mulheres da etnia Pima, com base em 8 variáveis diagnósticas, como nível de glicose, IMC, idade e pressão arterial.
+O objetivo principal desse projeto é de treinar um modelo para que ele seja capaz de prever o diagnóstico de diabetes tipo 2 em mulheres com base em 8 variáveis diagnósticas, como nível de glicose, IMC, idade e pressão arterial.
 
-O projeto demonstra um fluxo completo de ciência de dados, incluindo a exploração e pré-processamento dos dados, a aplicação de um modelo supervisionado (Random Forest) para classificação (prever se a paciente tem ou não diabetes) e um modelo não supervisionado (K-Means) para segmentação (encontrar perfis de risco entre as pacientes). A aplicação final foi desenvolvida em Streamlit para permitir uma interação prática com os modelos.
+Foram realizadas as etapas de exploração e pré-processamento dos dados para o treinamento e validação dos modelos supervisionados e não supervisionado. Para o modelo supervisionado foi feita uma validação cruzada utilizando o LogisticRegression e RandomForest afim de evitar overfitting, foram utilizados esses modelos por que são os mais recomendados, no caso do LogistcRegression ele foi usado como ponto de partida, por ser considerado ótimo para usar como modelo base por ser simples, rápido e de fácil interpretação, enquanto que o RandomForest por ser considerado como um modelo de alta perfomance ele ajudou a obter uma melhor acurácia. Para o modelo não supervisionado foi utilizado o K-means, onde os dados foram segmentados e agrupados como clusters (grupos), onde cada dado foi analizado por suas semelhanças e diferênças de acordo com a média (centroides) e em seguida recalculados para encontrar perfis de risco entre as pacientes. Para aplicação final foi feito o deploy no Streamlit pertindo uma maior interação com os modelos.
 
 #### link do Streamlit: https://predicao-diabetes-2.streamlit.app
 
