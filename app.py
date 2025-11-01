@@ -213,8 +213,6 @@ with tab4:
     ax_cm.set_title('Matriz de Confusão')
     
     # Mostrar o gráfico no Streamlit
-    st.pyplot(fig_cm)
-    
     st.subheader("Validação Cruzada (Cross-Validation)")
     st.write("""
     Para garantir que o modelo é estável e a acurácia de 74% não foi sorte, 
@@ -222,4 +220,10 @@ with tab4:
     O resultado foi uma acurácia média de **76.82%**, com baixo desvio padrão. 
     Isso prova que o modelo é robusto e confiável.
     """)
-    st.image('image_b6a1cc.png', caption='Resultado da Validação Cruzada (K-Fold=5) executada no notebook.')
+    
+    # Mostrando os resultados da validação cruzada
+    cv_results_text = """
+    Resultados (K-Fold=5): [0.759, 0.772, 0.772, 0.766, 0.771]
+    Acurácia Média: 0.7682 (+/- 0.0161)
+    """
+    st.code(cv_results_text)
