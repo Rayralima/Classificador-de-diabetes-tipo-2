@@ -1,6 +1,5 @@
 📝 Textos Prontos para seu Projeto
 1. Introdução ao Problema e Dataset
-(Use no README.md e na introdução do vídeo)
 
 O objetivo deste projeto é aplicar técnicas de Machine Learning para analisar o dataset "Pima Indians Diabetes" da UCI. Este dataset busca prever o diagnóstico de diabetes tipo 2 em mulheres da etnia Pima, com base em 8 variáveis diagnósticas, como nível de glicose, IMC, idade e pressão arterial.
 
@@ -16,8 +15,6 @@ Um desafio crítico deste dataset é a presença de valores "0" em colunas onde 
 Por fim, todos os dados foram padronizados com StandardScaler para garantir que as diferentes escalas das features não distorcessem a performance dos modelos.
 
 3. 🚀 Análise: Aprendizagem Supervisionada (Classificação)
-(Use no README.md e no app Streamlit)
-
 Justificativa do Modelo: Foi escolhido o Random Forest Classifier como modelo principal. Esta escolha se justifica por sua alta performance em problemas de classificação, sua capacidade de lidar com relações não-lineares e sua relativa robustez contra overfitting (especialmente quando validado corretamente).
 
 Resultados (Baseados na sua execução): O modelo foi treinado em 80% dos dados e avaliado nos 20% restantes.
@@ -40,7 +37,6 @@ Ele é razoável em identificar pacientes Diabéticas (Recall de 65%). Isso sign
 A Matriz de Confusão ([[78, 21], [19, 36]]) mostra que 19 pacientes diabéticas foram erroneamente classificadas como saudáveis, sendo este o erro mais crítico.
 
 4. 🚀 Análise: Aprendizagem Não Supervisionada (Clusterização)
-(Use no README.md e na Aba 2 do seu app Streamlit)
 
 Justificativa da Técnica: Foi aplicado o algoritmo K-Means para segmentar as pacientes em grupos (clusters) com características semelhantes, sem usar a variável Outcome. O objetivo é descobrir "perfis de risco" naturais nos dados.
 
@@ -73,7 +69,6 @@ Este grupo também tem alta proporção de diabetes (52%), mas por motivos difer
 Perfil: Embora sejam jovens (média de 29 anos), elas possuem os piores indicadores metabólicos: a Glicose mais alta (137), o IMC mais alto (39) e a Insulina mais alta (191).
 
 5. Conclusão do Projeto
-(Use no vídeo e README.md)
 
 O projeto foi bem-sucedido em criar duas abordagens de Machine Learning. O modelo supervisionado (Random Forest) alcançou uma performance robusta de 76,8% (validação cruzada), provando ser uma ferramenta viável para prever o risco de diabetes.
 
