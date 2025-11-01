@@ -1,4 +1,4 @@
-🩺 Classificador de Diabetes tipo 2
+# 🩺 Classificador de Diabetes tipo 2
 1. Introdução 
 
 O objetivo deste projeto é aplicar técnicas de Machine Learning para analisar o dataset "Pima Indians Diabetes" da UCI. Este dataset busca prever o diagnóstico de diabetes tipo 2 em mulheres da etnia Pima, com base em 8 variáveis diagnósticas, como nível de glicose, IMC, idade e pressão arterial.
