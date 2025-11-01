@@ -1,0 +1,4 @@
+Cluster,Size,Proporcao_Diabetes,Glucose,BMI,Age,Insulin,Pregnancies,BloodPressure,SkinThickness,DiabetesPedigreeFunction
+0,,0.52,135.46,39.43,29.31,187.02,1.95,75.04,36.95,0.6
+1,,0.51,131.31,32.72,46.24,140.68,7.4,78.22,30.06,0.46
+2,,0.14,107.26,28.51,25.99,115.72,2.31,66.75,24.2,0.41
