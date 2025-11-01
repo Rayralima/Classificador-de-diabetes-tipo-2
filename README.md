@@ -5,6 +5,8 @@ O objetivo deste projeto é aplicar técnicas de Machine Learning para analisar 
 
 O projeto demonstra um fluxo completo de ciência de dados, incluindo a exploração e pré-processamento dos dados, a aplicação de um modelo supervisionado (Random Forest) para classificação (prever se a paciente tem ou não diabetes) e um modelo não supervisionado (K-Means) para segmentação (encontrar perfis de risco entre as pacientes). A aplicação final foi desenvolvida em Streamlit para permitir uma interação prática com os modelos.
 
+### link do Streamlit: https://predicao-diabetes-2.streamlit.app
+
 ## 2. Análise Exploratória (EDA) e Pré-Processamento
 (Use no README.md ou roteiro do vídeo)
 
