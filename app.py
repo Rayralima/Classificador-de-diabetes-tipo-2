@@ -43,7 +43,7 @@ model, scaler, df = carregar_modelos_e_dados()
 
 # --- Título Principal ---
 st.title("🩺 Projeto Final: Machine Learning Aplicado à Saúde")
-st.write("Análise preditiva e exploratória de risco de diabetes usando o dataset Pima.")
+st.write("Análise preditiva e exploratória de risco de diabetes tipo 2 em pacientes.")
 
 # --- Abas para Organização ---
 tab1, tab2, tab3, tab4 = st.tabs([
