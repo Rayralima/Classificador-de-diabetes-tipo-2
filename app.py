@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # --- Configuração da Página ---
-# Usar st.set_page_config é a primeira coisa a se fazer
 st.set_page_config(
     page_title="Análise de Diabetes",
     page_icon="🩺",
@@ -15,7 +14,6 @@ st.set_page_config(
 )
 
 # --- Carregamento dos Modelos ---
-# Usar @st.cache_data previne recarregar os modelos a cada clique
 @st.cache_data
 def carregar_modelos_e_dados():
     try:
